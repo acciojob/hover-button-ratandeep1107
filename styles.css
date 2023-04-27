@@ -1,2 +1,25 @@
-
-/* Your CSS Code here. */
+body{
+    background-color: rgb(100, 100, 111);
+}
+#btn{
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgb(100, 100, 100) 10px 50px 100px 80px;
+    width: 12vw;
+    height: 8vh;
+    font-size: larger;
+    transition: transform 0.3s ease;
+    transition-delay: 0.1s;
+}
+#btn:hover{
+    transform: scale(1.5);
+    background-color: yellow;
+    border-radius: 30px;
+    color: black;
+    box-shadow: rgb(235, 237, 94) 10px 50px 100px 80px;
+    transform: 0.2s;
+}
