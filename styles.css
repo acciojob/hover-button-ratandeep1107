@@ -14,6 +14,7 @@ body{
     font-size: larger;
     transition: transform 0.3s ease;
     transition-delay: 0.1s;
+    border: 2px outset rgb(118, 118, 118);
 }
 #btn:hover{
     transform: scale(1.5);
